@@ -13,6 +13,7 @@
   
   p {
     width: 100%;
+    margin-top: 25px;
     color: black;
     padding: 15px;
   }
@@ -22,51 +23,36 @@
     width: 100%;
   }
 
-  .section {
+  section {
     background-color: gray;
     height: 300px;
     margin: 15px;
     border: 1px solid black;
+  }
+
+  .item-title {
+    border: 1px solid black;
+    float: right;
+    clear: left;
+    width: 150px;
+    top: -1px;
+    right: -1px;
+    margin-top: 0px;
+    text-align: center;
     position: relative;
   }
 
-  .section-top-line {
-    height: 15%;
-    width: 100%;
-  }
-
-  .chicken-title {
+  #chicken {
     background-color: rgb(190, 98, 113);
-    border: 1px solid black;
-    top: 0px;
-    right: 0px;
-    margin-top: 0px;
-    padding-right: 30px;
-    padding-left: 30px;
-    position: absolute;
   }
 
-  .beef-title {
+  #beef {
     background-color: rgb(180, 39, 39);
     color: white;
-    border: 1px solid black;
-    top: 0px;
-    right: 0px;
-    margin-top: 0px;
-    padding-right: 30px;
-    padding-left: 30px;
-    position: absolute;
   }
 
-  .sushi-title {
+  #sushi {
     background-color: rgb(224, 224, 75);
-    border: 1px solid black;
-    top: 0px;
-    right: 0px;
-    margin-top: 0px;
-    padding-right: 30px;
-    padding-left: 30px;
-    position: absolute;
   }
   
   /********** Large devices only **********/
